@@ -3,7 +3,7 @@ NUMBER=$1
 NUMBER2=$2
 echo "SCRIPT NAME IS:$0"
 echo "number 2 is:$NUMBER2"
-if [ (($NUMBER) % 2) -eq  0 ];then
+if [ ($NUMBER) % 2 -eq  0 ];then
 echo "Given number $NUMBER is even number"
 else 
 echo "Given number $NUMBER is not even number"
